@@ -1,5 +1,5 @@
 {
-  "homepage": "https://evgeny-nadymov.github.io/telegram-react",
+  "homepage": "https://arskah.github.io/telegram-react",
   "name": "telegram_react",
   "version": "0.0.772",
   "private": true,
@@ -36,6 +36,7 @@
     "build": "react-app-rewired build && sw-precache-cra --config sw-config.js --no-minify",
     "test": "react-app-rewired test --env=jsdom",
     "eject": "react-scripts eject",
+    "copy-tdlib": "cp node_modules/tdweb/dist/* public/",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "stats": "react-app-rewired build --bundle-report && npx webpack-bundle-analyzer ./build/bundle-stats.json"
