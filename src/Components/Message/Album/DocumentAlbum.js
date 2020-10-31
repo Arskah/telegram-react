@@ -27,7 +27,6 @@ import { getText, getWebPage, showMessageForward } from '../../../Utils/Message'
 import { isChannelChat, isPrivateChat } from '../../../Utils/Chat';
 import { PHOTO_DISPLAY_SIZE } from '../../../Constants';
 import MessageStore from '../../../Stores/MessageStore';
-import './DocumentAlbum.css';
 
 class DocumentAlbum extends React.Component {
     state = { };

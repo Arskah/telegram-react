@@ -15,7 +15,6 @@ import ChatStore from '../../Stores/ChatStore';
 import BasicGroupStore from '../../Stores/BasicGroupStore';
 import SupergroupStore from '../../Stores/SupergroupStore';
 import TdLibController from '../../Controllers/TdLibController';
-import './Footer.css';
 
 class Footer extends React.Component {
     shouldComponentUpdate(nextProps, nextState) {

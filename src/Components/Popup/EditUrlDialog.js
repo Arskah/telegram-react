@@ -16,7 +16,6 @@ import DialogTitle from '@material-ui/core/DialogTitle';
 import TextField from '@material-ui/core/TextField';
 import { validateUrl } from '../../Utils/Url';
 import { modalManager } from '../../Utils/Modal';
-import './EditUrlDialog.css';
 
 class EditUrlDialog extends React.Component {
     constructor(props) {

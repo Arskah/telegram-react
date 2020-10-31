@@ -18,7 +18,6 @@ import User from '../Tile/User';
 import NewChatPhoto from './NewChatPhoto';
 import { loadUsersContent } from '../../Utils/File';
 import FileStore from '../../Stores/FileStore';
-import './NewGroupParams.css';
 
 class UserListItem extends React.Component {
     shouldComponentUpdate(nextProps, nextState, nextContext) {

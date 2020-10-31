@@ -11,7 +11,6 @@ import IconButton from '@material-ui/core/IconButton';
 import ArrowBackIcon from '../../Assets/Icons/Back';
 import CloseIcon from '../../Assets/Icons/Close';
 import { isChannelChat, isPrivateChat } from '../../Utils/Chat';
-import './ChatDetailsHeader.css';
 
 class ChatDetailsHeader extends React.Component {
     constructor(props) {

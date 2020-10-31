@@ -8,7 +8,6 @@
 import React from 'react';
 import IconButton from '@material-ui/core/IconButton';
 import ArrowBackIcon from '../../Assets/Icons/Back';
-import './SharedMediaHeader.css';
 
 class SharedMediaHeader extends React.Component {
     constructor(props) {

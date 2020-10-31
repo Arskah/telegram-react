@@ -22,7 +22,6 @@ import ChatStore from '../Stores/ChatStore';
 import SupergroupStore from '../Stores/SupergroupStore';
 import UserStore from '../Stores/UserStore';
 import TdLibController from '../Controllers/TdLibController';
-import MessageStore from '../Stores/MessageStore';
 import { clearSelection } from '../Actions/Client';
 
 class Actions extends React.PureComponent {

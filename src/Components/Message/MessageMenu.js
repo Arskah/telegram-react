@@ -46,7 +46,6 @@ import AppStore from '../../Stores/ApplicationStore';
 import FileStore from '../../Stores/FileStore';
 import MessageStore from '../../Stores/MessageStore';
 import TdLibController from '../../Controllers/TdLibController';
-import './MessageMenu.css';
 
 class MessageMenu extends React.PureComponent {
     state = {

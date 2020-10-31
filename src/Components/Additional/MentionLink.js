@@ -18,7 +18,6 @@ import { isGroupChat } from '../../Utils/Chat';
 import { modalManager } from '../../Utils/Modal';
 import { openChat, openUser } from '../../Actions/Client';
 import TdLibController from '../../Controllers/TdLibController';
-import './MentionLink.css';
 
 class MentionLink extends React.Component {
     constructor(props) {

@@ -8,7 +8,6 @@
 import React from 'react';
 import Button from '@material-ui/core/Button';
 import { isIOS, isWindowsPhone } from '../../Utils/Common';
-import './NativeApp.css';
 
 class NativeApp extends React.Component {
     static handleInstall = () => {
